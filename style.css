@@ -1,5 +1,77 @@
 body {
-    background: linear-gradient(95deg, #3c3d41, #181820)
+    background: linear-gradient(95deg, #3c3d41, #181820);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    color: #ed3b6b;
+}
+
+
+
+.size_area {
+    display: flex;
+    gap: 3vh;
+}
+
+.colors_Area {
+    display: flex;
+    gap: 1.2vh;
+    align-items: center;
+}
+
+.whitee {
+    background-color: white;
+    padding: 0.7vh;
+    width: 2vh;
+    border: none;
+    border-radius: 15px;
+    height: 2vh;
+    color: white;
+}
+
+.redd {
+    background-color: red;
+    padding: 0.7vh;
+    width: 2vh;
+    border: none;
+    border-radius: 15px;
+    height: 2vh;
+    color: red;
+}
+
+.six,.seven,.eight,.nine {
+    padding: 1.1vh;
+    width: 2vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 2vh;
+    text-align: center;
+}
+
+.lightgreenn {
+    background-color: lawngreen;
+    padding: 0.7vh;
+    width: 2vh;
+    border: none;
+    border-radius: 15px;
+    height: 2vh;
+    color: lawngreen;
+}
+
+.blackk {
+    background-color: black;
+    padding: 0.7vh;
+    width: 2vh;
+    border: none;
+    border-radius: 15px;
+    height: 2vh;
+    color: black;
+}
+
+.logo2 {
+    margin-top: 30vh;
 }
 
 .logo1 {
@@ -23,7 +95,23 @@ ul {
     gap: 7vh;
 }
 
+main {
+    display: grid;
+}
+
+.buy {
+    width: 20vh;
+}
+
+.left_text {
+    display: grid;
+}
+
 .right {
     display: flex;
     gap: 5vh;
+}
+
+.logo2 {
+    width: 45vh;
 }
