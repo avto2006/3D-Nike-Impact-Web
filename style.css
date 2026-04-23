@@ -12,7 +12,7 @@ span {
 
 .size_area {
     display: flex;
-    gap: 3vh;
+    gap: 1.2vh;
 }
 
 .colors_Area {
@@ -50,6 +50,10 @@ span {
     text-align: center;
 }
 
+.buy {
+    margin-top: 3vh;
+}
+
 .lightgreenn {
     background-color: lawngreen;
     padding: 0.7vh;
@@ -71,7 +75,7 @@ span {
 }
 
 .logo2 {
-    margin-top: 30vh;
+    margin-top: 10vh;
 }
 
 .logo1 {
@@ -97,10 +101,18 @@ ul {
 
 main {
     display: grid;
+    justify-content: space-between;
+    margin-left: 20vh;
+    margin-top: 15vh;
 }
 
 .buy {
-    width: 20vh;
+    width: 22vh;
+    height: 5vh;
+    border-radius: 8px;
+    color: white;
+    background-color: #ed3b6b;
+    border: none;
 }
 
 .left_text {
@@ -113,5 +125,5 @@ main {
 }
 
 .logo2 {
-    width: 45vh;
+    width: 55vh;
 }
