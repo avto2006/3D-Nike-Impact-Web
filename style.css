@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(95deg, #3c3d41, #181820)
+}
+
+.logo1 {
+    width: 70px;
+}
+
+.r {
+    width: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 7vh;
+}
+
+.right {
+    display: flex;
+    gap: 5vh;
+}
