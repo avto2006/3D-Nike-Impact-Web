@@ -19,6 +19,7 @@ span {
     display: flex;
     gap: 1.2vh;
     align-items: center;
+    cursor: pointer;
 }
 
 .whitee {
@@ -141,4 +142,12 @@ main {
     justify-content: center;
     gap: 7vh;
     margin-left: 12vh;
+}
+
+main {
+    gap: 18vh;
+}
+
+.center_area {
+    margin-top: -20vh;
 }
